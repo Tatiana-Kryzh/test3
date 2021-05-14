@@ -1,0 +1,323 @@
+body{
+    width: 1920px;
+    margin: 0 auto;
+    background-color: #E5E5E5;
+}
+/*first_screen.................*/
+.class1{
+    width: 1920px;
+    height: 950px;
+    background-image: url(./img/фон\ 1.png);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+}
+
+.class2{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.class3{
+    text-decoration: none;
+    margin: 0 40px;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    color: #FFFFFF;
+
+}
+#footer{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    bottom: 0;
+}
+
+#t1{
+    top: 600px;
+    position: absolute;
+    font-family: Noto Serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 49px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 730px;
+    height: 49px;
+}
+
+#button{
+    top: 699px;
+    width: 261px;
+    height: 51px;
+    position: absolute;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: #333333;
+}
+
+#search::before{
+    content: url(./img/поиск.png);
+    position: absolute;
+    margin-left: -25px;
+}
+
+hr{
+    width: 100%;
+    position: absolute;
+    top: 830px;
+}
+
+/*second_screen..............*/
+.second_screen{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 100px;
+    color: #333333;
+    position: relative;
+    align-items: center;
+    
+}
+
+.h_1{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 140%;
+    text-align: center;
+   
+}
+
+.h_2{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 41px;
+    text-align: center;
+    margin-top: 15px;
+    
+      
+}
+.catalog{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1110px;
+    
+    
+}
+
+.catalog_link{
+    text-decoration: none;
+    
+}
+
+.catalog_foto{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1110px;
+    
+}
+
+.catalog_foto_img{
+    width: 350px;
+    height: 280px;
+    margin-top: 30px;
+    
+}
+/*Salon...................................*/
+.salon{
+    background: url(./img/фон\ салон.png);
+    margin-top: 120px;
+    width: 100%;
+    height: 541px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    
+}
+.salon_text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 140%;
+    text-align: center;
+    width: 730px;
+    margin: 0 auto;
+    margin-top: 45px;
+    
+
+}
+
+.salon_button{
+    width: 224px;
+    height: 51px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #333333;
+    margin: 60px auto 0;
+    border-radius: 0;
+    border: 1px solid rgba(51, 51, 51, 1);
+    
+
+}
+/*blog.........................*/
+.blog{
+    display: flex;
+    flex-direction: column;
+    margin-top: 120px;
+    justify-content: center;
+    color: #333333;
+    position: relative;
+    align-items: center;
+}
+.blog_foto{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1110px;
+    margin-top: 60px;
+}
+
+.blog_button{
+    width: 255px;
+    height: 51px;
+    background: #333333;
+    border: 1px solid #FFFFFF;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border-radius: 0;
+    margin: 60px auto 0;
+}
+
+/*gallery.........................*/
+.gallery{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #333333;
+    margin-top: 120px;
+    position: relative;
+    align-items: center;
+    
+
+}
+
+.gallery_foto{
+    
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 60px;
+    width: 1110px;
+}
+
+
+/*subscribe.........................*/
+.subscribe{
+    background: url(./img/фон\ салон.png);
+    margin-top: 160px;
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+    height: 478px;
+    justify-content: center;
+    position: relative;
+    
+}
+
+.subscribe_block{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+li {
+    background: url(./img/subscribe__icon.png) 0 50% no-repeat;
+    list-style-type: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 140%;
+    padding-left: 20px;
+    line-height: 2;
+   
+}
+
+.email_block{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 80px;
+    background-color: rgba(255, 255, 255, 1);
+    width: 418px;
+    height: 85px;
+    
+}
+.email_button{
+    background: #333333;
+    border: 1px solid #FFFFFF;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border-radius: 0;
+    width: 159px;
+    height: 45px;
+    margin-left: 15px;
+    
+}
+#email{
+    width: 200px;
+    height: 45px;
+}
+
+.footer_f{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+}
